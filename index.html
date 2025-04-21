@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Granja MASIVO - Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vista de la Granja MASIVO en tiempo real</h1>
+
+  <iframe 
+    src="http://dem.bancodebogota.com:7777/d-solo/aea79m6nqu96ob/mantiz-home?orgId=1&from=now-1h&to=now&var-group=APL%2FMANTIZ%2FMASIVO&var-hosts=__all__&var-ambiente=be39nzvuqkcu8f&refresh=1m&panelId=97"
+    allowfullscreen>
+  </iframe>
+
+  <p style="color: #aaa; font-size: 0.9em;">Actualizado automáticamente cada minuto</p>
+</body>
+</html>
